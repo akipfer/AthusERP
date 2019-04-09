@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', ['as' => 'erp.home', 'uses' => 'Controller@index']);
+
 
 Route::get('/contatos', ['as' => 'contatos.lista', 'uses' => 'ERP\ContatoController@index']);
 Route::get('/contato/novo', ['as' => 'contatos.novo', 'uses' => 'ERP\ContatoController@novo']);
