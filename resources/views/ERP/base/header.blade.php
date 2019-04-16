@@ -25,9 +25,6 @@
     <!-- c3.js Charts Plugin -->
     <link href="{{asset('assets/plugins/charts-c3/plugin.css')}}" rel="stylesheet"/>
     <script src="{{asset('assets/plugins/charts-c3/plugin.js')}}"></script>
-    <!-- Google Maps Plugin -->
-    <link href="{{asset('assets/plugins/maps-google/plugin.css')}}" rel="stylesheet"/>
-    <script src="{{asset('assets/plugins/maps-google/plugin.js')}}"></script>
     <!-- Input Mask Plugin -->
     <script src="{{asset('assets/plugins/input-mask/plugin.js')}}"></script>
   </head>
