@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="pt-br" dir="ltr">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -19,11 +19,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext">
     <script src="{{asset('assets/js/require.min.js')}}"></script>
-    <script>
-    requirejs.config({
-    baseUrl: '.'
-    });
-    </script>
     <!-- Dashboard Core -->
     <link href="{{asset('assets/css/dashboard.css')}}" rel="stylesheet"/>
     <script src="{{asset('assets/js/dashboard.js')}}"></script>
@@ -44,7 +39,7 @@
           <div class="container">
             <div class="d-flex">
             <a class="header-brand" href="{{ route('erp.home') }}">
-            <img src="{{asset('demo/brand/tabler.svg')}}" class="header-brand-img" alt="tabler logo">
+            <img src="data:image/png;base64,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" class="header-brand-img" alt="tabler logo">
             </a>
             <div class="d-flex order-lg-2 ml-auto">
             <div class="nav-item d-none d-md-flex">
@@ -166,6 +161,8 @@
           @yield('content')
         </div>
       </div>
+
+
 
       <div class="footer">
         <div class="container">
