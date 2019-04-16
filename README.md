@@ -2,6 +2,7 @@
  
 Objetivo é criar um ERP Gerencial completo. Aonde cada usuário terá devidas suas permissões para realizar suas tarefas.
  
+[How to install AthusERP](https://github.com/dshy1/AthusERP/wiki/How-to-install-AthusERP)
 
   
 #### Os principais setores serão.
