@@ -147,7 +147,5 @@
         </div>
     </div>
 </div>
-</div>
-</div>
 </form>
 @stop
